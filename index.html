@@ -20,57 +20,6 @@
       line-height: 1.6;
     }
 
-    /* Intro Animation Styles */
-    #intro-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      display: flex;
-      z-index: 10000;
-      pointer-events: none;
-    }
-
-    .stripe {
-      flex: 1;
-      background-color: #111;
-      animation: fadeOutStripe 0.5s forwards;
-    }
-
-    .stripe:nth-child(even) {
-      background-color: #1a1a1a;
-    }
-
-    .stripe:nth-child(1) { animation-delay: 0.05s; }
-    .stripe:nth-child(2) { animation-delay: 0.10s; }
-    .stripe:nth-child(3) { animation-delay: 0.15s; }
-    .stripe:nth-child(4) { animation-delay: 0.20s; }
-    .stripe:nth-child(5) { animation-delay: 0.25s; }
-    .stripe:nth-child(6) { animation-delay: 0.30s; }
-    .stripe:nth-child(7) { animation-delay: 0.35s; }
-    .stripe:nth-child(8) { animation-delay: 0.40s; }
-    .stripe:nth-child(9) { animation-delay: 0.45s; }
-    .stripe:nth-child(10) { animation-delay: 0.50s; }
-    .stripe:nth-child(11) { animation-delay: 0.55s; }
-    .stripe:nth-child(12) { animation-delay: 0.60s; }
-    .stripe:nth-child(13) { animation-delay: 0.65s; }
-    .stripe:nth-child(14) { animation-delay: 0.70s; }
-    .stripe:nth-child(15) { animation-delay: 0.75s; }
-    .stripe:nth-child(16) { animation-delay: 0.80s; }
-    .stripe:nth-child(17) { animation-delay: 0.85s; }
-    .stripe:nth-child(18) { animation-delay: 0.90s; }
-    .stripe:nth-child(19) { animation-delay: 0.95s; }
-    .stripe:nth-child(20) { animation-delay: 1.0s; }
-
-    @keyframes fadeOutStripe {
-      to {
-        opacity: 0;
-        transform: translateY(-100%);
-      }
-    }
-
-    /* Existing Styles */
     header {
       background: #0a0a0a;
       padding: 20px 40px;
@@ -254,14 +203,6 @@
   </style>
 </head>
 <body>
-
-  <!-- Intro Animation Overlay -->
-  <div id="intro-overlay">
-    <div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div>
-    <div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div>
-    <div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div>
-    <div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div><div class="stripe"></div>
-  </div>
 
   <header>
     <h1>Midterm Lab Task 2 - Data Cleaning with Power Query</h1>
